@@ -3,7 +3,6 @@ import 'dart:collection';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'task.dart';
-import 'package:provider/provider.dart';
 
 class TaskData extends ChangeNotifier {
   List<Task> _tasks = [
